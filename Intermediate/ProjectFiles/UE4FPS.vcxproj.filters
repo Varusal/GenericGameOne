@@ -1,0 +1,181 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\UE4FPS.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{21F67657-74C9-433D-A98F-168A86F8B752}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\UE4FPS.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\UE4FPSEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\.gitattributes" />
+    <None Include="..\..\.gitignore" />
+    <None Include="..\..\ParticleToolkitVol1.png" />
+    <None Include="..\..\Retro8BitSounds.png" />
+    <Filter Include="Config">
+      <UniqueIdentifier>{34EBA3C0-D18D-42C5-A5DA-842B89845CE6}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGameUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\GameSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\UE4FPS">
+      <UniqueIdentifier>{91E33F87-A369-4F5E-A778-641CB89F5C07}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\UE4FPS\DamageActor.cpp">
+      <Filter>Source\UE4FPS</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\UE4FPS\DamageActor.h">
+      <Filter>Source\UE4FPS</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\UE4FPS\MoneyActor.cpp">
+      <Filter>Source\UE4FPS</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\UE4FPS\MoneyActor.h">
+      <Filter>Source\UE4FPS</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\UE4FPS\SSpeedActor.cpp">
+      <Filter>Source\UE4FPS</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\UE4FPS\SSpeedActor.h">
+      <Filter>Source\UE4FPS</Filter>
+    </ClInclude>
+    <None Include="..\..\Source\UE4FPS\UE4FPS.Build.cs">
+      <Filter>Source\UE4FPS</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\UE4FPS\UE4FPS.cpp">
+      <Filter>Source\UE4FPS</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\UE4FPS\UE4FPS.h">
+      <Filter>Source\UE4FPS</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\UE4FPS\UE4FPSCharacter.cpp">
+      <Filter>Source\UE4FPS</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\UE4FPS\UE4FPSCharacter.h">
+      <Filter>Source\UE4FPS</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\UE4FPS\UE4FPSGameMode.cpp">
+      <Filter>Source\UE4FPS</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\UE4FPS\UE4FPSGameMode.h">
+      <Filter>Source\UE4FPS</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\UE4FPS\UE4FPSHUD.cpp">
+      <Filter>Source\UE4FPS</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\UE4FPS\UE4FPSHUD.h">
+      <Filter>Source\UE4FPS</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\UE4FPS\UE4FPSProjectile.cpp">
+      <Filter>Source\UE4FPS</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\UE4FPS\UE4FPSProjectile.h">
+      <Filter>Source\UE4FPS</Filter>
+    </ClInclude>
+    <Filter Include="Source\UE4FPS\Private">
+      <UniqueIdentifier>{049CF122-2AFE-4ECA-AB5B-4458EE51D55A}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\UE4FPS\Private\AICharacter.cpp">
+      <Filter>Source\UE4FPS\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\UE4FPS\Private\BPCustomSettingsLibrary.cpp">
+      <Filter>Source\UE4FPS\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\UE4FPS\Private\BPVideoSettingsLib.cpp">
+      <Filter>Source\UE4FPS\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\UE4FPS\Private\CustomGameSettings.cpp">
+      <Filter>Source\UE4FPS\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\UE4FPS\Private\DLCActor.cpp">
+      <Filter>Source\UE4FPS\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\UE4FPS\Private\FCustomSettingsModule.cpp">
+      <Filter>Source\UE4FPS\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\UE4FPS\Private\KillActor.cpp">
+      <Filter>Source\UE4FPS\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\UE4FPS\Private\Lootbox.cpp">
+      <Filter>Source\UE4FPS\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\UE4FPS\Private\LootboxActor.cpp">
+      <Filter>Source\UE4FPS\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\UE4FPS\Private\MyAIController.cpp">
+      <Filter>Source\UE4FPS\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\UE4FPS\Private\MyDeveloperSettings.cpp">
+      <Filter>Source\UE4FPS\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\UE4FPS\Private\ObjectiveBase.cpp">
+      <Filter>Source\UE4FPS\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\UE4FPS\Private\QuestBase.cpp">
+      <Filter>Source\UE4FPS\Private</Filter>
+    </ClCompile>
+    <Filter Include="Source\UE4FPS\Public">
+      <UniqueIdentifier>{F1104D11-6CFA-4267-91A1-28CBBA5648C9}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\UE4FPS\Public\AICharacter.h">
+      <Filter>Source\UE4FPS\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\UE4FPS\Public\BPCustomSettingsLibrary.h">
+      <Filter>Source\UE4FPS\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\UE4FPS\Public\BPVideoSettingsLib.h">
+      <Filter>Source\UE4FPS\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\UE4FPS\Public\CustomGameSettings.h">
+      <Filter>Source\UE4FPS\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\UE4FPS\Public\DLCActor.h">
+      <Filter>Source\UE4FPS\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\UE4FPS\Public\FCustomSettingsModule.h">
+      <Filter>Source\UE4FPS\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\UE4FPS\Public\KillActor.h">
+      <Filter>Source\UE4FPS\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\UE4FPS\Public\Lootbox.h">
+      <Filter>Source\UE4FPS\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\UE4FPS\Public\LootboxActor.h">
+      <Filter>Source\UE4FPS\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\UE4FPS\Public\MyAIController.h">
+      <Filter>Source\UE4FPS\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\UE4FPS\Public\MyDeveloperSettings.h">
+      <Filter>Source\UE4FPS\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\UE4FPS\Public\ObjectiveBase.h">
+      <Filter>Source\UE4FPS\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\UE4FPS\Public\QuestBase.h">
+      <Filter>Source\UE4FPS\Public</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
